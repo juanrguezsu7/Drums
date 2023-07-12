@@ -1,0 +1,112 @@
+html {
+  cursor: url("./assets/cursors/Baton.cur"), auto;
+  background-color: dimgrey;
+}
+
+body {
+  margin: 0px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 5rem;
+  letter-spacing: 5px;
+  color: white;
+  text-shadow: 8px 5px black;
+  margin-bottom: 0px;
+  padding: 10px 15px 5px 15px;
+  border: 5px solid darkgray;
+  border-style: dashed;
+}
+
+.drum-kit {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  border: 8px solid black;
+  border-radius: 30px;
+  background-color: rgb(80, 85, 85);
+  gap: 80px;
+  top: 50%;
+  left: 5%;
+  height: 30%;
+  width: 90%;
+}
+
+.drum {
+  height: 150px;
+  width: 150px;
+  border: 5px solid wheat;
+  background-color: white;
+  border-radius: 10%;
+}
+
+.q {
+  background-image: url("./assets/images/crash.png");
+}
+
+.w {
+  background-image: url("./assets/images/kick.png");
+}
+
+.e {
+  background-image: url("./assets/images/snare.png");
+}
+
+.r {
+  background-image: url("./assets/images/tom1.png");
+}
+
+.t {
+  background-image: url("./assets/images/tom2.png");
+}
+
+.y {
+  background-image: url("./assets/images/tom3.png");
+}
+
+.u {
+  background-image: url("./assets/images/tom4.png");
+}
+
+.drum > p {
+  margin: 0px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5rem;
+  position: relative;
+  top: 65%;
+  left: 20%;
+  font-weight: bolder;
+  color: greenyellow;
+  text-shadow: 5px 5px black;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 400px;
+}
+
+footer {
+  position: absolute;
+  height: 5%;
+  width: 100%;
+  top: 95%;
+  text-align: center;
+  background-color: rgb(35, 36, 36);
+}
